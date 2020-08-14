@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Create meet</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="calculi.css" type="text/css">
+
+</head>
+
+<body>
+<div class="header">
+    <center>
+            <h1>Minute Magic</h1>
+            <h3>Behold the power of calculator</h3>
+    </center>
+</div>
+
+<div class="form" id="back">
+    <form name="calci" >
+        <center>
+            <input type="text" name="answer" id="style" style="text-align:right;">
+
+            <br>  </br>
+            <input type="button" id="button1" value="1" onclick="calci.answer.value +='1' ">
+            <input type="button" id="button1" value="2" onclick="calci.answer.value +='2' ">
+            <input type="button" id="button1" value="3" onclick="calci.answer.value +='3' ">
+           
+
+            <br>  </br> 
+            <input type="button" id="button1" value="4" onclick="calci.answer.value +='4' ">
+            <input type="button" id="button1" value="5" onclick="calci.answer.value +='5' ">
+            <input type="button" id="button1" value="6" onclick="calci.answer.value +='6' ">
+            
+            <br>  </br>
+            <input type="button" id="button1" value="7" onclick="calci.answer.value +='7' ">
+            <input type="button" id="button1" value="8" onclick="calci.answer.value +='8' ">
+            <input type="button" id="button1" value="9" onclick="calci.answer.value +='9' ">
+
+            <br>  </br>
+            <input type="button" id="button1" value="+" onclick="calci.answer.value +='+' ">
+            <input type="button" id="button1" value="-" onclick="calci.answer.value +='-' ">
+            <input type="button" id="button1" value="*" onclick="calci.answer.value +='*' ">
+
+            <br>  </br>
+            <input type="button" id="button1" value="/" onclick="calci.answer.value +='/' ">
+            <input type="button" id="button1" value="0" onclick="calci.answer.value +='0' ">
+            <input type="button" id="button1" value="=" onclick="calci.answer.value = eval(calci.answer.value) ">
+
+            <br>  </br>
+            <input type="button" value="CLEAR ALL" onclick="calci.answer.value ='' " id="clear">
+        </center>
+    </form>
+
+    <div class="quote" id="design">
+        <div style="font-family:sans-serif; font-style: italic; padding-left: 1070px; padding-top: 35px; font:small-caption;">
+            <h3>Calculators can only do Calculations and not Mathematics</h3>
+        </div>
+    </div>
+</div>
+</body>
+
+
+
+</html>

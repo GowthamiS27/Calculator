@@ -1,0 +1,64 @@
+.form
+{
+    padding-top: 70px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    
+}
+.header
+{
+    background-color:cadetblue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: medium;
+    text-shadow: 1px 1px #FF0000;
+    font-style: inherit;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size:larger;
+}
+#button1
+{
+    background-color:teal;
+}
+#back
+{
+    background-color: darkolivegreen;
+    height: 500px;
+    width: 1520px;
+    margin-top: 10px;
+}
+#clear
+{
+    width: 250px;
+    background-color: aquamarine;
+    font-size: medium;
+    font-weight: 700;
+    
+}
+input
+{
+    width: 80px;
+    height: 40px;
+}
+#style
+{
+    width: 240px;
+    background-color: azure;
+}
+
+#id
+{
+    margin-top: 50px;
+}
+#id
+{
+    font-family: sans-serif;
+    font-style: italic;
+    font: message-box;
+}
+#button2
+{
+    font-size: medium;
+}
